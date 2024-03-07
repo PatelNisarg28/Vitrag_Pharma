@@ -608,3 +608,36 @@ footer
 .footer-logo {
     width: 300px; /* Set width for footer-logo div */
 }
+
+@media (max-width: 767px) {
+    .info-sec {
+      padding-left: 15px;
+      margin-bottom: 20px; /* Add some bottom margin for spacing */
+    }
+  
+    .quick-links {
+      width: 75%; /* Set full width for quick-links */
+      padding-left: 20px;
+    }
+  
+    .quick-info {
+      padding-left: 0; /* Remove default padding from the list */
+      list-style: none; /* Remove default list styles */
+    }
+  
+    .quick-info li {
+      margin-bottom: 10px; /* Add some bottom margin for spacing between list items */
+    }
+  
+    .footer-logo {
+      width: 100%; /* Set full width for footer-logo */
+      text-align: center; 
+    }
+  
+    .footer-logo img {
+      width: auto; /* Set image width to auto to maintain aspect ratio */
+      max-width: 200px; /* Set maximum width for the image */
+      height: auto; /* Set image height to auto to maintain aspect ratio */
+      max-height: 100px; /* Set maximum height for the image */
+    }
+  }
